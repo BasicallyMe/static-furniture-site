@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Furniture</title>
-</head>
-<body>
-    <h1>Furniture</h1>
-</body>
+    <link rel="stylesheet" href="styles.scss" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=melodrama@600&f[]=satoshi@700,500,400&f[]=bebas-neue@400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="accent-div" class="accent-div"></div>
+      <nav class="navigation">
+        <div class="logo">
+          <div class="circle"></div>
+          <h4 class="company-name">Furniture</h4>
+        </div>
+        <ul class="nav">
+          <li class="active">Designers</li>
+          <li>History</li>
+          <li>News</li>
+        </ul>
+        <ul class="nav">
+          <li>Shop</li>
+          <li>About</li>
+        </ul>
+        <div class="menu">
+          <button>
+            <object
+              type="image/svg+xml"
+              data="assets/menu.svg"
+              class="menu-button"
+            >
+              Logo
+            </object>
+          </button>
+        </div>
+      </nav>
+      <main class="main-section">
+        <div class="designer-info">
+          <h5>Designer Furniture</h5>
+          <h1 class="designer-name">Linda<br> Wilson</h1>
+          <div class="designer-avatar">
+            <div class="avatar-container">
+              <img src="assets/avatar.jpg" alt="Picture of a person">
+            </div>
+            <div class="location">
+              <h5>New York</h5>
+              <h5>Furniture<br>Designer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="furniture-carousel">
+          <div class="picture-container">
+            <img src="assets/furniture.jpg" alt="picture of furniture">
+          </div>
+          <div class="carousel-counter">
+            <span class="current-index">01</span>
+            <span class="hr"></span>
+            <span class="total-items">04</span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
