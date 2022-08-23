@@ -6,12 +6,16 @@ const nav = document.getElementsByClassName("nav");
 const carouselCounter = document.querySelector(".carousel-counter");
 const [navOne, navTwo] = nav;
 
-document.addEventListener("readystatechange", (e) => {
-  container.style.display = 'none';
-});
+// document.addEventListener("readystatechange", (e) => {
+//   container.style.visibility = 'none';
+// });
+
+document.addEventListener("DOMContentLoaded", (e) => {
+  container.style.visibility = "hidden";
+})
 
 window.onload = () => {
-  container.style.display = '';
+  container.style.visibility = "visible";
   animateElements();
 }
 
@@ -42,5 +46,4 @@ function animateElements() {
   }, 1.7);
   tl.from(cityLocation.children, { x: -20, opacity: 0, duration: 0.7, stagger: 0.2 });
   tl.from(carouselCounter.children, { y: 100, opacity: 0, duration: 0.7, stagger: 0.2}, 2.5);
-  console.log(tl.duration());
 }
