@@ -3,12 +3,18 @@
 ## Table of contents
 - [**FURNITURE** - a static site using HTML, SCSS and JS](#furniture---a-static-site-using-html-scss-and-js)
   - [Table of contents](#table-of-contents)
+  - [Screenshot](#screenshot)
   - [About](#about)
   - [Tools](#tools)
   - [Things I've learned](#things-ive-learned)
   - [Things I want to continue learning](#things-i-want-to-continue-learning)
   - [My experience](#my-experience)
   - [Credits](#credits)
+    - [Assets](#assets)
+    - [Design](#design)
+
+## Screenshot
+
 
 ## About
 This is an example of a simple static furniture website. The design of the site was referenced from <a href="https://dribbble.com/shots/18975537-Furniture-Ecommerce-Website?utm_source=Clipboard_Shot&utm_campaign=gapsystudio&utm_content=Furniture%20Ecommerce%20Website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gapsystudio&utm_content=Furniture%20Ecommerce%20Website&utm_medium=Social_Share">Furniture Ecommerce Website</a> on <a href="https://dribbble.com">Dribbble</a>. There's also an animation on page load.
@@ -40,6 +46,11 @@ P.S. I'm pretty sure I'll go back to coding after just 2 hours of pushing this c
 
 ## Credits
 
+### Assets
 Avatar photo by <a href="https://unsplash.com/@tamarabellis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tamara Bellis</a> on <a href="https://unsplash.com/s/photos/person?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Furniture photo by <a href="https://unsplash.com/@seffen99?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sven Brandsma</a> on <a href="https://unsplash.com/s/photos/furniture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+### Design
+
+The design for the static site was taken from [Furniture Ecommerce Website](https://dribbble.com/shots/18975537-Furniture-Ecommerce-Website?utm_source=Clipboard_Shot&utm_campaign=gapsystudio&utm_content=Furniture%20Ecommerce%20Website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gapsystudio&utm_content=Furniture%20Ecommerce%20Website&utm_medium=Social_Share) by [Gapsy Studio](https://dribbble.com/gapsystudio) on [Dribbble](https://dribbble.com)

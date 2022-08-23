@@ -1,4 +1,5 @@
 const tl = gsap.timeline();
+const container = document.querySelector('.container');
 const designerInfo = document.querySelector(".designer-info");
 const cityLocation = document.querySelector(".location");
 const nav = document.getElementsByClassName("nav");
@@ -6,14 +7,13 @@ const carouselCounter = document.querySelector(".carousel-counter");
 const [navOne, navTwo] = nav;
 
 document.addEventListener("readystatechange", (e) => {
-  if (document.readyState === "complete") {
-    animateElements();
-  }
+  container.style.display = 'none';
 });
 
-// window.onload = () => {
-//   animateElements();
-// }
+window.onload = () => {
+  container.style.display = '';
+  animateElements();
+}
 
 function animateElements() {
   tl.from('.logo', { y: -50, opacity: 0, duration: 0.3});
